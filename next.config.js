@@ -20,3 +20,16 @@ module.exports = withBundleAnalyzer({
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
   }
 })
+
+module.exports = {
+
+  async redirects() {
+    return [
+      {
+        source: '/when-he-thinks-no-one-is-looking-a-young-boy-stops-to-hug-two-stray-dogs-on-video',
+        destination: 'https://daily-heroes.info/uncategorized/when-he-thinks-no-one-is-looking-a-young-boy-stops-to-hug-two-stray-dogs-on-video',
+        permanent: true
+      }
+    ];
+  }
+};
