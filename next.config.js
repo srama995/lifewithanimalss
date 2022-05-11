@@ -33,3 +33,17 @@ module.exports = {
     ];
   }
 };
+
+
+module.exports = {
+
+  async redirects() {
+    return [
+      {
+        source: '/battered-hunting-dog-gave-up-on-life-after-owner-deemed-her-useless-dumped-her',
+        destination: 'https://daily-heroes.info/uncategorized/battered-hunting-dog-gave-up-on-life-after-owner-deemed-her-useless-dumped-her',
+        permanent: true
+      }
+    ];
+  }
+};
