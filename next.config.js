@@ -26,22 +26,13 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/when-he-thinks-no-one-is-looking-a-young-boy-stops-to-hug-two-stray-dogs-on-video',
-        destination: 'https://daily-heroes.info/uncategorized/when-he-thinks-no-one-is-looking-a-young-boy-stops-to-hug-two-stray-dogs-on-video',
-        permanent: true
-      }
-    ];
-  }
-};
-
-
-module.exports = {
-
-  async redirects() {
-    return [
-      {
         source: '/battered-hunting-dog-gave-up-on-life-after-owner-deemed-her-useless-dumped-her',
         destination: 'https://daily-heroes.info/uncategorized/battered-hunting-dog-gave-up-on-life-after-owner-deemed-her-useless-dumped-her',
+        permanent: true
+      },
+      {
+        source: '/when-he-thinks-no-one-is-looking-a-young-boy-stops-to-hug-two-stray-dogs-on-video',
+        destination: 'https://daily-heroes.info/uncategorized/when-he-thinks-no-one-is-looking-a-young-boy-stops-to-hug-two-stray-dogs-on-video',
         permanent: true
       }
     ];
