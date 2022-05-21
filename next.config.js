@@ -25,6 +25,11 @@ module.exports = {
 
   async redirects() {
     return [
+{
+        source: '/tewestettt',
+        destination: 'https://daily-heroes.info',
+        permanent: true
+      },
       {
         source: '/battered-hunting-dog-gave-up-on-life-after-owner-deemed-her-useless-dumped-her',
         destination: 'https://daily-heroes.info/uncategorized/battered-hunting-dog-gave-up-on-life-after-owner-deemed-her-useless-dumped-her',
